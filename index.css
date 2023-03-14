@@ -1,0 +1,112 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.home{
+    width: 100%;
+    height: 100vh;
+    background-image: url(../img/صور-خياليه-3.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.home .navbre{
+    width: 100%;
+    height: 95px;
+    background-color: rgba(42, 165, 52, 0.394);
+}
+.home .navbre ul{
+  list-style-type: none; 
+
+}
+.home .navbre ul li{
+    display: inline;
+}
+/* .home .navbre ul li img{
+    width: 60px;
+} */
+.home .navbre ul .right {
+
+    float: right;
+    color: blue;
+    font-size: 40px;
+    font-weight: bold;
+    margin-top: 8px;
+    padding: 20px;
+}
+.home .navbre ul .right:hover{
+    background-color: cadetblue;
+}
+.home .navbre ul .log img{
+    margin: 4px;
+  width:90px;
+  transition: all 1s;
+}
+.home .navbre ul .log img:hover{
+
+    transform: rotate(380deg);
+}
+.home .item{
+    width: 100%;
+    height: 400px;
+    /* background-color: black; */
+    margin-top: 80px ;
+    text-align: center;
+}
+.home .item .iameg{
+    width: 30%;
+    height: 100%;
+    /* background-color: blue; */
+   display: inline-block;
+   transition: all 1s;
+}
+.home .item .iameg img{
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+   
+  }
+  .home .item .iameg img:hover{
+  transform: rotate(360deg);
+}
+.home h1{
+    font-weight: bold;
+    text-align: center ;
+    font-size: 60px;
+    color: black;
+    text-shadow: 10px 10px 10px white;
+}
+.home .bu{
+    text-align: center;
+}
+.home button{
+    color: rgb(0, 0, 0);
+    padding: 10ox 15px; 
+     margin: 20px 20px;
+     width: 20%;
+     border-radius: 20px;
+      border: 1px solid white;
+      font-size: 30px;
+    }
+.home .btn1{
+    background-color: blue;
+    transition: ;
+}
+.home .btn1:hover{
+    background-color:wheat;
+}
+.home .btn2:hover{
+    background-color: blueviolet;
+}
+.home .btn2{
+    background-color: green;
+
+    transition: ;
+}
+.home .navbre ul .right a{
+color: rgb(0, 0, 0);
+ text-decoration: none;
+}
+
+
+/* ========================  hover . image  =============================  */
+
